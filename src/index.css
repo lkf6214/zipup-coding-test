@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  width: 100%;
+  max-width: 360px;
+  word-break: keep-all;
+  /* border: 1px solid #e5e5e5; */
+  margin: 0 auto;
+
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont,
+    "Pretendard Variable" "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
